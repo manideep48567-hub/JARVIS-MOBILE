@@ -10,6 +10,7 @@ document.getElementById('send').onclick=()=>{
  chat.lastChild.innerText='J.A.R.V.I.S: Systems online. How may I assist you, Boss?';
  },1000);
 };
+
 function add(text,who){
  const d=document.createElement('div');
  d.className='msg '+who;
